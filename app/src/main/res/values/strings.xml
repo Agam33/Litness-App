@@ -1,3 +1,374 @@
 <resources>
     <string name="app_name">Litness</string>
+
+<!-- Latihan ABS -->
+    <string name="title_abs_exercise">Latihan Abs</string>
+    <string name="title_plank">Plank</string>
+    <string name="txt_abs_plank_step_1">Berdiri dengan kaki selebar pinggul. Jika Anda merasa lebih nyaman, Anda bisa menempatkan
+kaki Anda sedikit lebih lebar dari pinggul</string>
+    <string name="txt_abs_plank_step_2">Bungkukkan badan hingga kedua telapak tangan menyentuh lantai. Pastikan siku Anda sejajar
+dengan bahu</string>
+    <string name="txt_abs_plank_step_3">Letakkan pergelangan tangan di depan tubuh, sehingga bahu Anda sejajar dengan siku. Ini akan
+membantu Anda menjaga postur tubuh yang lurus
+</string>
+    <string name="txt_abs_plank_step_4">Dorong kedua tangan ke depan tanpa bantuan kaki. Pastikan otot perut Anda tetap kencang dan
+tubuh Anda dalam posisi lurus dari kepala hingga kaki</string>
+    <string name="txt_abs_plank_step_5">Kesabaran adalah kunci untuk menahan gerakan plank. Mulai dengan waktu yang singkat dan
+secara bertahap meningkatkan waktu tahan Anda</string>
+
+    <string name="title_situp">Sit-Up</string>
+    <string name="txt_sit_up_step_1">Berbaring telentang di lantai atau bangku yang rata. Jika perlu, gunakan mat atau matras
+olahraga untuk memastikan punggung lebih nyaman</string>
+    <string name="txt_sit_up_step_2">Tekuk lutut dan tempelkan kaki ke lantai agar tubuh tetap stabil. Pastikan kedua telapak kaki
+menyentuh matras dengan pijakan yang kuat</string>
+    <string name="txt_sit_up_step_3">Letakkan tangan dalam posisi silang di atas dada atau dekat telinga. Hindari meletakkan tangan
+di belakang kepala karena bisa menarik leher dan menyebabkan cedera</string>
+    <string name="txt_sit_up_step_4">Hembuskan nafas saat menaikan badan. Angkat tubuh bagian atas ke arah lutut, menggunakan
+otot bagian perut. Pastikan gerakan dilakukan dengan perlahan dan terkontrol
+</string>
+    <string name="txt_sit_up_step_5">Setelah tubuh merapat ke arah lutut, kembalikan ke posisi berbaring telentang. Tarik napas saat
+turun kembali ke posisi awal</string>
+    <string name="txt_sit_up_step_6">Hindari mengangkat tubuh bagian atas dengan menekan leher, menjatuhkan tubuh dengan
+cepat, tidak menjaga kaki rata, dan membungkukkan punggung saat mengangkat tubuh</string>
+
+    <string name="title_russian_twist">Russian Twist</string>
+    <string name="txt_russian_twist_step_1">Duduk di lantai dengan lutut ditekuk dan kaki diangkat. Pastikan kaki tidak menyentuh lantai
+untuk mempertahankan postur yang baik</string>
+    <string name="txt_russian_twist_step_2">Pegang kettlebell, medicine ball, atau dumbbell dengan kedua tangan. Jika menggunakan
+beban, pastikan pegangan yang kuat untuk menghindari cedera
+</string>
+    <string name="txt_russian_twist_step_3">Tekuk tubuh ke belakang hingga membentuk sudut sekitar 45 derajat dengan lantai. Pastikan
+punggung tetap lurus untuk menghindari cedera</string>
+    <string name="txt_russian_twist_step_4">Mulai berputar tubuh dari satu sisi ke sisi lain tanpa menggerakkan pinggul. Fokus pada otototot samping perut dan inti perut</string>
+    <string name="txt_russian_twist_step_5">Lakukan gerakan putar minimal 15 repetisi. Jika ingin meningkatkan kesulitan, dapat
+menambahkan beban atau mengubah posisi tubuh
+</string>
+    <string name="txt_russian_twist_step_6">Pastikan postur tubuh tetap tegak lurus dan tidak terlepas dari beban. Tekan otot-otot samping
+perut dengan kuat untuk memaksimalkan efektivitas latihan
+</string>
+
+    <string name="title_crunch">Crunch</string>
+    <string name="txt_crunch_step_1">Berbaring telentang pada permukaan lantai yang rata dengan beralaskan matras olahraga</string>
+    <string name="txt_crunch_step_2">Tekuk lutut dengan posisi kedua telapak kaki menapak ke lantai, atau bisa juga ditekuk 90
+derajat
+</string>
+    <string name="txt_crunch_step_3">Kencangkan perut dengan mengangkat tubuh bagian atas. Pastikan untuk mengaktifkan otot
+perut, terutama otot rektus abdominis
+</string>
+    <string name="txt_crunch_step_4"> Angkat tubuh bagian atas ke atas, tetapi jangan sepenuhnya seperti sit-up. Fokus pada
+mengangkat bagian atas tubuh, seperti dada dan bokong</string>
+    <string name="txt_crunch_step_5">Untuk melakukan bicycle crunch, gerakkan kaki di udara seperti mengayuh sepeda. Ini
+melibatkan otot perut bagian atas dan bawah, serta otot paha</string>
+    <string name="txt_crunch_step_6">Ulangi gerakan ini sebanyak 10 kali, kemudian istirahatlah sebelum melanjutkan ke set
+berikutnya. Biasanya dilakukan 3 set dalam satu kali sesi latihan</string>
+    <string name="txt_crunch_step_7">Pastikan untuk melakukan pemanasan sebelum melakukan crunch, terutama jika Anda baru
+mulai olahraga. Jangan lupa untuk beristirahat jika merasa nyeri atau kram pada perut</string>
+
+
+    <!-- Latihan ARM -->
+    <string name="title_arm_exercise">latihan Arm</string>
+    <string name="title_biceps_curl">Biceps Curl</string>
+    <string name="txt_biceps_curl_step_1">Pilih alat yang akan digunakan, seperti dumbbell atau barbell</string>
+    <string name="txt_biceps_curl_step_2">Berdiri tegak dengan kaki selebar bahu</string>
+    <string name="txt_biceps_curl_step_3">Pegang alat dengan kedua tangan dengan jarak selebar bahu</string>
+    <string name="txt_biceps_curl_step_4">Tarik alat ke arah tubuh dengan mengangkat siku. Pastikan agar siku tetap menempel di sisi tubuh dan
+tidak bergerak</string>
+    <string name="txt_biceps_curl_step_5">Lanjutkan gerakan hingga alat berada di dekat bahu</string>
+    <string name="txt_biceps_curl_step_6">Tahan posisi tersebut selama satu detik</string>
+    <string name="txt_biceps_curl_step_7">Turunkan alat perlahan-lahan kembali ke posisi awal
+</string>
+    <string name="txt_biceps_curl_step_8">Lakukan gerakan secara perlahan-lahan dan terkontrol untuk menghindari cedera</string>
+    <string name="txt_biceps_curl_step_9">Lakukan sebanyak 15 repetisi (4 set)
+</string>
+
+    <string name="title_standing_dumbbell">Standing Dumbbell</string>
+    <string name="txt_standing_dumbbell_step_1">Berdirilah tegak dengan kaki dibuka selebar bahu</string>
+    <string name="txt_standing_dumbbell_step_2">Pegang dumbbell di masing-masing tangan dengan telapak tangan menghadap ke atas</string>
+    <string name="txt_standing_dumbbell_step_3">Tekuk lengan bawah ke arah bahu sambil menjaga lengan atas tetap diam</string>
+    <string name="txt_standing_dumbbell_step_4">Angkat dumbbell ke atas hingga siku tegak lurus dengan lantai. Pastikan untuk mengangkat
+beban dengan kontrol dan tidak menggoyangkan badan</string>
+    <string name="txt_standing_dumbbell_step_5">Turunkan dumbbell kembali ke posisi awal secara perlahan. Jaga agar gerakan tetap terkontrol
+dan tidak terlalu cepat</string>
+    <string name="txt_standing_dumbbell_step_6">Sesuaikan beban dan intensitas untuk memastikan bentuk tubuh yang tepat dan tantang diri
+Anda dengan tepat</string>
+    <string name="txt_standing_dumbbell_step_7">Lakukan sebanyak 15 repetisi (4 set)</string>
+
+    <string name="title_shoulder_press">Shoulder Press</string>
+    <string name="txt_shoulder_press_step_1">Pegang sepasang dumbbell atau barbell dengan telapak tangan menghadap ke arah luar. Untuk
+pemula, lebih baik menggunakan dumbbell karena lebih mudah dikontrol
+</string>
+    <string name="txt_shoulder_press_step_2">Berdiri tegak dengan kaki selebar bahu. Jika Anda pemula, Anda juga dapat duduk dengan
+posisi yang tegak</string>
+    <string name="txt_shoulder_press_step_3">Dorong beban ke atas kepala hingga siku benar-benar terkunci. Pastikan punggung tetap lurus
+dan core terkunci untuk mendukung beban</string>
+    <string name="txt_shoulder_press_step_4">Berhenti sebentar di atas kepala untuk memastikan posisi beban dan otot yang terlibat</string>
+    <string name="txt_shoulder_press_step_5">Turunkan beban secara perlahan kembali ke posisi awal. Pastikan gerakan ini terkontrol untuk
+menghindari cedera</string>
+    <string name="txt_shoulder_press_step_6">Lakukan sebanyak 15 repetisi (4 set)</string>
+
+    <string name="title_lateral_raise">Lateral Raise</string>
+    <string name="txt_lateral_raise_step_1">Berdiri tegak dengan kaki selebar bahu. Pastikan postur tubuh Anda stabil dan tidak terlalu
+tegang</string>
+    <string name="txt_lateral_raise_step_2">Pilih beban sesuai kemampuan
+</string>
+    <string name="txt_lateral_raise_step_3">Pegang dumbbell di kedua tangan dengan posisi tangan menggantung di samping tubuh Anda.
+Telapak tangan menghadap ke dalam</string>
+    <string name="txt_lateral_raise_step_4">Perlahan-lahan angkat kedua tangan ke samping hingga sejajar dengan bahu. Siku harus sedikit
+ditekuk dan tangan lurus</string>
+    <string name="txt_lateral_raise_step_5">Berikan sedikit jeda di bagian atas gerakan sebelum menurunkan lengan kembali ke posisi awal.
+Ini membantu mengontrol gerakan dan mencegah cedera</string>
+    <string name="txt_lateral_raise_step_6">Perlahan-lahan turunkan dumbbell kembali ke posisi semula, sambil mengontrol gerakan agar
+tetap stabil dan terkendali</string>
+    <string name="txt_lateral_raise_step_7">Lakukan sebanyak 15 repetisi (4 set)</string>
+
+    <string name="title_reverse_fly">Reverse Fly</string>
+    <string name="txt_reverse_fly_step_1">Pastikan kaki Anda terbuka selebar bahu untuk memastikan keseimbangan dan stabilitas tubuh</string>
+    <string name="txt_reverse_fly_step_2">Pegang masing-masing tangan dengan dumbbell, dengan telapak tangan menghadap ke depan</string>
+    <string name="txt_reverse_fly_step_3">Tekuk pinggang dan turunkan tubuh bagian atas hingga membentuk sudut 90 derajat. Ini akan
+membantu Anda menggerakkan lengan dengan lebih efektif</string>
+    <string name="txt_reverse_fly_step_4">Biarkan dumbbell menggantung lurus ke bawah, dengan telapak tangan saling berhadapan
+</string>
+    <string name="txt_reverse_fly_step_5">Kuatkan otot inti dan pastikan punggung tetap rata. Ini sangat penting untuk menghindari cedera
+dan memastikan gerakan yang efektif</string>
+    <string name="txt_reverse_fly_step_6">Angkat lengan ke samping hingga lurus dengan tubuh. Pastikan siku tetap lembut dan tidak
+terlalu ditekuk</string>
+    <string name="txt_reverse_fly_step_7">Turunkan lengan secara perlahan dan ulangi gerakan tersebut. Lakukan gerakan ini dengan
+ritme yang teratur untuk mendapatkan hasil yang optimal</string>
+    <string name="txt_reverse_fly_step_8">Lakukan sebanyak 15 repetisi (4 set)</string>
+
+    <string name="title_rope_pushdown_machine">Rope Pushdown Machine</string>
+    <string name="txt_rope_pushdown_machine_step_1">Berdirilah di depan mesin kabel (cable machine) dengan kaki selebar pinggul dan tubuh tegak
+lurus</string>
+    <string name="txt_rope_pushdown_machine_step_2">Pilih beban sesuai dengan kemampuan</string>
+    <string name="txt_rope_pushdown_machine_step_3">Pegang bar dengan siku ditekuk menyerupai sudut 90 derajat. Pastikan siku Anda tepat di
+sebelah batang tubuh</string>
+    <string name="txt_rope_pushdown_machine_step_4">Turunkan lengan ke bawah dan rentangkan tali sedikit ke arah kanan dan kiri untuk merasakan
+kontraksi trisep. Pastikan posisi tangan Anda lurus</string>
+    <string name="txt_rope_pushdown_machine_step_5">Tahan posisi tersebut untuk memicu kontraksi trisep. Anda dapat merasakan otot trisep bekerja
+saat lengan Anda lurus</string>
+    <string name="txt_rope_pushdown_machine_step_6">Lakukan sebanyak 15 repetisi (4 set)</string>
+
+    <string name="title_triceps_kick_back">Triceps Kick Back</string>
+    <string name="txt_triceps_kick_back_step_1">Berdiri tegak dengan lutut ditekuk pada bangku atau platform setinggi lutut Anda. Jika tidak
+menggunakan bangku, Anda bisa berdiri tegak dengan punggung lurus</string>
+    <string name="txt_triceps_kick_back_step_2">Letakkan satu tangan pada sebuah bangku atau platform dan pegang sebuah dumbbell pada
+tangan yang satunya. Pastikan posisi tangan yang memegang dumbbell sedikit ditekuk hingga
+membuat sudut 90°</string>
+    <string name="txt_triceps_kick_back_step_3">Doronglah salah satu tangan yang memegang dumbbell ke arah belakang, jaga agar hanya siku
+Anda yang bergerak bukan lengan Anda yang bergerak ke belakang. Pastikan punggung tetap
+lurus selama gerakan</string>
+    <string name="txt_triceps_kick_back_step_4">Setelah menggerakkan tangan ke belakang, kembali ke posisi semula. Lakukan gerakan ini pada
+tangan yang berikutnya</string>
+    <string name="txt_triceps_kick_back_step_5">Ulangi gerakan ini sebanyak 10-12 repetisi untuk setiap lengan. Jika Anda pemula, disarankan
+untuk menggunakan beban ringan terlebih dahulu</string>
+
+    <!-- Latihan Back -->
+    <string name="title_back_exercice">Latihan Back</string>
+    <string name="title_lat_pull_down">Lat Pull Down</string>
+    <string name="txt_lat_pull_down_step_1">Pegang batang lat pull down dengan tangan yang sedikit lebih lebar dari bahu. Pastikan telapak
+tangan menghadap ke depan</string>
+    <string name="txt_lat_pull_down_step_2">Duduk dengan tangan lurus ke atas memegang batang lat pull down tersebut</string>
+    <string name="txt_lat_pull_down_step_3">Atur beban sesuai dengan kemampuan</string>
+    <string name="txt_lat_pull_down_step_4">Tarik batang lurus ke bawah hingga tepat di atas dada Anda. Anda juga bisa menarik batang
+tersebut ke belakang kepala hingga pada leher</string>
+    <string name="txt_lat_pull_down_step_5">Pastikan tangan Anda tetap dalam posisi yang benar, yaitu lebih lebar dari lebar bahu.
+Genggaman yang bagus adalah dengan jempol di atas atau searah dengan jari lainnya</string>
+    <string name="txt_lat_pull_down_step_6">Hindari membiarkan beban menarik tangan Anda ke atas karena ini tidak efektif dan bisa
+menyebabkan cedera</string>
+    <string name="txt_lat_pull_down_step_7">Jangan membuat tubuh ikut naik dan turun untuk mempermudah tarikan karena ini tidak benar
+dan bisa menyebabkan cedera</string>
+    <string name="txt_lat_pull_down_step_8">Lakukan sebanyak 12-15 repetisi (3 set)</string>
+
+    <string name="title_dumbbell_row">Dumbbell Row </string>
+    <string name="txt_dumbbell_row_step_1">Berdiri dengan kaki dibuka selebar bahu</string>
+    <string name="txt_dumbbell_row_step_2">Masing-masing tangan memegang dumbbell dan arahkan kedua telapak tangan menghadap ke
+badan</string>
+    <string name="txt_dumbbell_row_step_3">Tekuk sedikit lutut dan pinggang hingga tubuh bagian atas menyerupai sudut 45 derajat
+menghadap lantai</string>
+    <string name="txt_dumbbell_row_step_4">Pilih dumbbell sesuai kemampuan
+</string>
+    <string name="txt_dumbbell_row_step_5">Selagi menjaga punggung tetap rata, tekuk lengan dan tarik dumbbell mendekati tulang rusuk</string>
+    <string name="txt_dumbbell_row_step_6">Perlahan luruskan lengan dan turunkan beban seperti pada posisi awal</string>
+    <string name="txt_dumbbell_row_step_7">Lakukan sebanyak 12-15 repetisi (4 set)</string>
+
+    <string name="title_seated_row">Seated Row</string>
+    <string name="txt_seated_row_step_1">Duduklah di bangku yang dirancang untuk latihan Seated Row. Pastikan posisi tubuhmu tegak
+dan kaki terletak di pijakan yang tersedia</string>
+    <string name="txt_seated_row_step_2">Pegang pegangan cable dengan kedua tangan, posisikan siku sejajar dengan dada. Jika
+menggunakan pegangan terpisah, pastikan gerakan dapat dilakukan lebih luas dan tekanan pada
+otot punggung bagian tengah lebih optimal</string>
+    <string name="txt_seated_row_step_3">Bengkokkan lutut sedikit dan bungkukkan badan sedikit ke belakang. Kencangkan perut untuk
+mempertahankan stabilitas tubuh</string>
+    <string name="txt_seated_row_step_4">Atur beban sesuai dengan kemampuan</string>
+    <string name="txt_seated_row_step_5">Tarik cable perlahan-lahan sampai menyentuh perut. Rasakan tekanan yang diterima oleh otot
+punggung. Busungkan dada dan luruskan punggung untuk mempertahankan postur yang baik</string>
+    <string name="txt_seated_row_step_6">Tahan sebentar dalam posisi yang telah ditemukan, lalu perlahan-lahan kembali ke posisi
+semula. Pastikan gerakan dilakukan dengan terkontrol dan perlahan-lahan</string>
+    <string name="txt_seated_row_step_7">Lakukan sebanyak 12-15 repetisi (3 set)
+</string>
+
+    <string name="title_t_bar_row">T-Bar Row</string>
+    <string name="txt_t_bar_row_step_1">Berdiri di sisi batang T yang lain dengan kaki selebar bahu. Jika menggunakan mesin T-Bar,
+pastikan Anda berdiri di sisi yang tepat untuk mengangkat beban</string>
+    <string name="txt_t_bar_row_step_2">Tekuk pinggul Anda sedikit dan tekuk lutut Anda untuk mendapatkan posisi tubuh yang stabil
+dan siap untuk melakukan gerakan</string>
+    <string name="txt_t_bar_row_step_3">Pegang palang atau pegangan T-Bar dengan tangan Anda, pastikan posisi tangan Anda sedikit
+lebih lebar dari bahu. Jika menggunakan mesin, pastikan Anda memegangnya dengan benar
+dan kuat</string>
+    <string name="txt_t_bar_row_step_4">Jaga punggung Anda tetap lurus dan inti tetap kencang. Angkat beban ke arah Anda dengan
+perlahan, pastikan otot punggung dan bahu Anda berkontraksi</string>
+    <string name="txt_t_bar_row_step_5">Atur beban sesuai dengan kemampuan</string>
+    <string name="txt_t_bar_row_step_6">Tarik beban ke arah Anda, lakukan gerakan secara perlahan untuk menghindari cedera. Saat
+menarik beban, pastikan siku Anda membentuk 45 derajat. Ini akan membantu melatih otot
+bisep dan punggung dengan efektif</string>
+    <string name="txt_t_bar_row_step_7">Setelah menarik beban ke arah Anda, perlahan kembali ke posisi awal. Pastikan Anda
+mengontrol berat badan Anda dan mempertahankan bentuk yang benar untuk melakukan
+latihan T-Bar dengan aman</string>
+    <string name="txt_t_bar_row_step_8">Lakukan sebantak 8-12 repetisi (3 set)</string>
+
+    <string name="title_rope_pull_down">Rope Pull Down</string>
+    <string name="txt_rope_pull_down_step_1">Berdiri di depan mesin rope pull yang biasanya terletak di pusat kebugaran atau gym</string>
+    <string name="txt_rope_pull_down_step_2">Pegang tali yang terhubung dengan mesin rope pull dengan kedua tangan, pastikan posisi tangan
+lebih lebar dari bahu Anda</string>
+    <string name="txt_rope_pull_down_step_3">Atur beban sesuai kemampuan
+</string>
+    <string name="txt_rope_pull_down_step_4">Tarik tali ke bawah dengan kecepatan tetap, disertai dengan variasi pegangan untuk
+memaksimalkan kontraksi otot</string>
+    <string name="txt_rope_pull_down_step_5">Gunakan kaki untuk memberikan kekuatan tambahan selama melakukan gerakan tarik tali ke
+bawah</string>
+    <string name="txt_rope_pull_down_step_6">Lakukan variasi pegangan untuk memaksimalkan hasil, seperti mengganti pegangan overhand
+dengan pegangan neutral atau lainnya</string>
+    <string name="txt_rope_pull_down_step_7">Lakukan sebanyak 12-15 repetisi (3 set)</string>
+
+    <!-- Latihan Back -->
+    <string name="title_chest_exercise">Latihan Chest</string>
+    <string name="title_bench_press">Bench Press</string>
+    <string name="txt_bench_press_step_1">Lakukan peregangan ringan untuk mengsiapkan otot tubuh. Misalnya, dengan lari-lari kecil
+atau meregangkan otot kaki dan tangan agar tidak mudah mengalami nyeri saat berolahraga
+berat nanti</string>
+    <string name="txt_bench_press_step_2">Atur beban sesuai dengan kemampuan</string>
+    <string name="txt_bench_press_step_3">Berbaringlah di atas bench dengan punggung menyentuh permukaan bench secara penuh.
+Pastikan kaki tegak di lantai dan kaki selebar pinggul</string>
+    <string name="txt_bench_press_step_4">Ambil barbell dengan posisi tangan sedikit lebih lebar dari lebar bahu. Pastikan kedua tangan
+sejajar dan kencang menggenggam barbell</string>
+    <string name="txt_bench_press_step_5">Turunkan barbell secara perlahan ke arah dada dengan mengendurkan siku-siku secara
+perlahan. Pastikan untuk mengontrol gerakan ini dan menjaga stabilitas tubuh</string>
+    <string name="txt_bench_press_step_6">Setelah barbell mencapai titik terendah di dada, doronglah kembali barbell ke atas dengan
+mendorong barbell melawan gravitas</string>
+    <string name="txt_bench_press_step_7">Lakukan latihan bench press sebanyak 8-12 kali tiap setnya dengan jumlah set maksimal enam</string>
+
+    <string name="title_incline_bench_press">Incline Bench Press</string>
+    <string name="txt_incline_bench_press_step_1">Lakukan peregangan ringan untuk mengsiapkan otot tubuh. Misalnya, dengan lari-lari kecil
+atau meregangkan otot kaki dan tangan agar tidak mudah mengalami nyeri saat berolahraga
+berat nanti</string>
+    <string name="txt_incline_bench_press_step_2">Atur beban sesuai dengan kemampuan</string>
+    <string name="txt_incline_bench_press_step_3">Berbaringlah di atas bench dengan punggung menyentuh permukaan bench secara penuh.
+Pastikan kaki tegak di lantai dan kaki selebar pinggul</string>
+    <string name="txt_incline_bench_press_step_4">Ambil barbell dengan posisi tangan sedikit lebih lebar dari lebar bahu. Pastikan kedua tangan
+sejajar dan kencang menggenggam barbel</string>
+    <string name="txt_incline_bench_press_step_5">Turunkan barbell secara perlahan ke arah dada dengan mengendurkan siku-siku secara
+perlahan. Pastikan untuk mengontrol gerakan ini dan menjaga stabilitas tubuh</string>
+    <string name="txt_incline_bench_press_step_6">Setelah barbell mencapai titik terendah di dada, doronglah kembali barbell ke atas dengan
+mendorong barbell melawan gravitasi</string>
+    <string name="txt_incline_bench_press_step_7">Lakukan latihan incline bench press sebanyak 8-12 kali tiap setnya dengan jumlah set maksimal
+enam</string>
+
+    <string name="title_decline_bench_press">Decline Bench Press</string>
+    <string name="txt_decline_bench_press_step_1">Lakukan peregangan ringan untuk mengsiapkan otot tubuh. Misalnya, dengan lari-lari kecil
+atau meregangkan otot kaki dan tangan agar tidak mudah mengalami nyeri saat berolahraga
+berat nanti
+</string>
+    <string name="txt_decline_bench_press_step_2">Atur beban sesuai dengan kemampuan</string>
+    <string name="txt_decline_bench_press_step_3">Berbaringlah di atas bench dengan punggung menyentuh permukaan bench secara penuh.
+Pastikan kaki tegak di lantai dan kaki selebar pinggul</string>
+    <string name="txt_decline_bench_press_step_4">Ambil barbell dengan posisi tangan sedikit lebih lebar dari lebar bahu. Pastikan kedua tangan
+sejajar dan kencang menggenggam barbel</string>
+    <string name="txt_decline_bench_press_step_5">Turunkan barbell secara perlahan ke arah dada dengan mengendurkan siku-siku secara
+perlahan. Pastikan untuk mengontrol gerakan ini dan menjaga stabilitas tubuh</string>
+    <string name="txt_decline_bench_press_step_6">Setelah barbell mencapai titik terendah di dada, doronglah kembali barbell ke atas dengan
+mendorong barbell melawan gravitasi</string>
+    <string name="txt_decline_bench_press_step_7">Lakukan latihan decline bench press sebanyak 8-12 kali tiap setnya dengan jumlah set maksimal
+enam</string>
+
+    <string name="title_butterfly_chest">Butterfly Chest</string>
+    <string name="txt_butterfly_chest_step_1">Letakkan kedua tangan di depan dada dengan posisi siku tangan ditekuk 90 derajat. Telapak
+tangan menghadap ke muka</string>
+    <string name="txt_butterfly_chest_step_2">Buka kedua lengan ke samping hingga sejajar dengan bahu. Ini mirip dengan gerakan "open
+the window" atau "butterfly" di mana lengan dibuka dan ditutup di depan wajah</string>
+    <string name="txt_butterfly_chest_step_3">Setelah membuka lengan, kembalikan posisi awal dengan menutup lengan di depan dada. Ini
+akan membantu melatih otot dada</string>
+    <string name="txt_butterfly_chest_step_4">Ulangi gerakan membuka dan menutup lengan secara berulang untuk memaksimalkan latihan
+otot dada</string>
+    <string name="txt_butterfly_chest_step_5">Pastikan untuk mengontrol gerakan dengan baik dan tidak terlalu keras untuk menghindari
+cedera</string>
+    <string name="txt_butterfly_chest_step_6">Lakukan latihan Butterfly Chest sebanyak 12-15 kali tiap setnya dengan jumlah set maksimal
+enam.</string>
+    
+    <string name="title_chest_press_machine">Chest Press Machine</string>
+    <string name="txt__chest_press_machine_step_1">Duduk pada bangku chest press machine dengan punggung bertumpu pada sandaran dan kaki
+bertumpu pada pijakan chest press machine</string>
+    <string name="txt__chest_press_machine_step_2">Pegang gagang alat chest press dengan posisi telapak tangan menghadap ke bawah (overhand)
+</string>
+    <string name="txt__chest_press_machine_step_3">Posisikan siku menjauh ke luar samping tubuh dan pegangan tangan seharis horisontal dengan
+otot dada</string>
+    <string name="txt__chest_press_machine_step_4">Dorong pegangan ke depan hingga posisi tangan lurus dan siku sedikit menekuk. Pastikan
+pergelangan tangan tetap lurus dan tidak menekuk ke arah mana pun</string>
+    <string name="txt__chest_press_machine_step_5">Turunkan beban kembali pada posisi semula dengan menekuk siku tanpa ada sentuhan
+tumpukan beban pada mesin. Lakukan gerakan ini perlahan-lahan untuk menghindari cedera</string>
+    <string name="txt__chest_press_machine_step_6">Tarik napas pada saat menurunkan badan dari posisi siku lurus ke depan hingga siku menekuk
+ke samping tubuh. Buang napas dengan mendorong pegangan pada mesin dari posisi siku
+menekuk ke samping tubuh sampai siku lurus ke depan
+</string>
+    <string name="txt__chest_press_machine_step_7">Lakukan latihan chest press machine sebanyak 12-15 kali tiap setnya dengan jumlah set
+maksimal enam.</string>
+
+    <!-- Latihan Back -->
+    <string name="title_leg_exercise">Latihan Leg</string>
+    <string name="title_squat">Squat</string>
+    <string name="txt_squat_step_1">Berdiri tegak dengan kaki selebar bahu. Jari-jari kaki melebar ke kiri dan kanan sekitar 15
+derajat</string>
+    <string name="txt_squat_step_2"> Pastikan lutut setengah ketekuk dan kedua tangan menggenggam barbell dengan overhand,
+tidak terlalu jauh dari kedua sisi pundak.</string>
+    <string name="txt_squat_step_3">Tekuk lutut hingga kedua kaki lurus. Pastikan genggaman pada barbell sudah kuat dan nyaman.</string>
+    <string name="txt_squat_step_4">Turunkan tubuh Anda sejauh yang bisa Anda lakukan dengan mendorong punggung ke
+belakang. Pastikan tubuh bagian bawah harus sejajar dengan lantai dan dada dalam keadaan
+busung serta tidak membungkuk.</string>
+    <string name="txt_squat_step_5">Pada saat Anda menurunkan badan, naikkan lengan Anda hingga lurus ke depan untuk menjaga
+keseimbangan</string>
+    <string name="txt_squat_step_6">Setelah menurunkan badan, angkat kembali badan dalam posisi berdiri tegak seperti semula.
+Lakukan hal tersebut secara berulang kali sesuai dengan kemampuan Anda</string>
+    <string name="txt_squat_step_7">Lakukan sebanyak 8-12 repitisi (3 set) dana tur beban sesuai dengan kemampuan</string>
+
+    <string name="title_leg_extencions">Leg Extencions</string>
+    <string name="txt_leg_extencions_step_1">Duduk pada mesin leg extension dengan punggung tegak lurus menempel pada sandaran mesin</string>
+    <string name="txt_leg_extencions_step_2">Letakkan pergelangan kaki ke bawah bantalan mesin latihan. Pastikan kaki membentuk sudut
+siku-siku antara kaki bagian bawah dan kaki bagian atas (lower leg dan upper leg)</string>
+    <string name="txt_leg_extencions_step_3">Genggamlah handle sebelah mesin dengan tangan yang kuat dan nyaman
+</string>
+    <string name="txt_leg_extencions_step_4">Dorong beban ke atas dengan menggunakan otot quadriceps. Pastikan bahwa seluruh tubuh
+tetap dalam kondisi diam dan hindari panggul terangkat dari tempat duduk</string>
+    <string name="txt_leg_extencions_step_5">Tahan kontraksi puncak sesaat. Jika sudut kaki kurang dari 90 derajat, itu dapat menyebabkan
+tekanan berlebih pada sendi lutut dan cedera
+</string>
+    <string name="txt_leg_extencions_step_6">Perlahan-lahan turunkan beban kembali ke kondisi awal sambil menarik nafas. Pastikan tidak
+melewati batas sudut siku-siku</string>
+    <string name="txt_leg_extencions_step_7">Lakukan sebanyak 12-15 repetisi (3 set) dan atur beban sesuai dengan kemampuan</string>
+    
+    <string name="title_leg_press">Leg Press</string>
+    <string name="txt_leg_press_step_1">Pilih dan atur berat beban terlebih dahulu sesuai dengan kemampuan Anda</string>
+    <string name="txt_leg_press_step_2">Duduk di mesin leg press dan letakkan kaki Anda pada platform di depan Anda dengan posisi
+kaki selebar bahu. Pastikan lutut lurus atau sejajar dengan kaki</string>
+    <string name="txt_leg_press_step_3">Pegang dan rendahkan safety bar pada mesin leg press sambil menahan platform dengan kedua
+kaki. Genggamlah pegangan di samping alat dengan posisi lengan lurus di sisi samping tubuh</string>
+    <string name="txt_leg_press_step_4">Dorong platform sampai kaki Anda lurus, tetapi jangan mengunci kaki Anda ketika dalam
+posisi lurus. Torso dan kaki sebaiknya membentuk sudut 90 derajat</string>
+    <string name="txt_leg_press_step_5">Tarik nafas dan perlahan-lahan turunkan platform sampai posisi kaki atas dengan bawah
+membentuk sudut 90 derajat. Pastikan punggung bawah Anda tertekan pada bantalan
+punggung selama melakukan gerakan</string>
+    <string name="txt_leg_press_step_6">Dorong kembali dengan menggunakan tumit dan aktifkan otot Quadriceps Anda untuk
+kembali ke posisi awal. Hembuskan nafas</string>
+    <string name="txt_leg_press_step_7">Ketika selesai menggunakan mesin, jangan lupa mengunci safety pin pada mesin untuk
+mencegah platform tertiban</string>
+    <string name="txt_leg_press_step_8">Lakukan sebanyak 12-15 repitisi (4 set)</string>
+
 </resources>

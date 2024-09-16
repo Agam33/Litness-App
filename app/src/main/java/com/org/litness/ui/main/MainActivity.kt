@@ -1,4 +1,4 @@
-package com.org.litness.ui
+package com.org.litness.ui.main
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge

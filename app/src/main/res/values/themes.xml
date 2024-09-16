@@ -3,6 +3,11 @@
     <style name="Base.Theme.Litness" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="backgroundColor">@color/md_theme_light_secondary</item>
+
     </style>
 
     <style name="Theme.Litness" parent="Base.Theme.Litness" />

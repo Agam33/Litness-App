@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "311162976469",
+    "firebase_url": "https://litness-ee32f-default-rtdb.firebaseio.com",
+    "project_id": "litness-ee32f",
+    "storage_bucket": "litness-ee32f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311162976469:android:529935cdb5ae76f03e4a5c",
+        "android_client_info": {
+          "package_name": "com.org.litness"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5a1Q1l_wC6UWoNbbj3Ke-RvOQCYR7QjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
