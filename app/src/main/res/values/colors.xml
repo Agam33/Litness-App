@@ -3,13 +3,17 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
+    <color name="background">#ECEBEB</color>
+
+    <color name="label_small_color">#A1A0A0</color>
+
     <!--    Material Design Colors 3-->
     <color name="md_theme_light_primary">#454FCB</color>
     <color name="md_theme_light_onPrimary">#FFFFFF</color>
     <color name="md_theme_light_primaryContainer">#E0E0FF</color>
     <color name="md_theme_light_onPrimaryContainer">#00036B</color>
 
-    <color name="md_theme_light_secondary">#BFBABA</color>
+    <color name="md_theme_light_secondary">#EDEDED</color>
     <color name="md_theme_light_onSecondary">#FFFFFF</color>
     <color name="md_theme_light_secondaryContainer">#E1E0F9</color>
     <color name="md_theme_light_onSecondaryContainer">#191A2C</color>

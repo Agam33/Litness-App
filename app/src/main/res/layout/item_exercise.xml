@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    android:layout_margin="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="124dp">
+
+    <RelativeLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_exercise"
+            android:src="@drawable/abs_crunch"
+            android:layout_width="128dp"
+            android:layout_height="128dp"/>
+
+        <LinearLayout
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="bottom"
+            android:layout_toEndOf="@id/iv_exercise"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_marginBottom="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:fontFamily="@font/roboto_black"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:text="Crunch" />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:textColor="#A1A0A0"
+                android:text="Abs"
+                app:fontFamily="@font/roboto_regular"
+                android:textSize="16sp"
+                android:id="@+id/tv_focus_area"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

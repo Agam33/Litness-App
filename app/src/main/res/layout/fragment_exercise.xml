@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/md_theme_light_secondary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.exercise.ExerciseFragment">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        app:title="Exercises"
+        style="@style/Widget.App.DrawerToolbar"
+        app:menu="@menu/menu_exercise"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        tools:itemCount="10"
+        tools:listitem="@layout/item_exercise"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/rv_exercise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
