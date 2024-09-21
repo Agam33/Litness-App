@@ -1,0 +1,37 @@
+package com.org.litness.ui.exercise
+
+import android.os.Bundle
+import androidx.fragment.app.Fragment
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import com.org.litness.R
+import com.org.litness.databinding.FragmentExerciseBinding
+import com.org.litness.util.DrawerMenuToolbarListener
+
+class ExerciseFragment : Fragment() {
+
+    private var binding: FragmentExerciseBinding? = null
+
+    var drawerMenuToolbarListener: DrawerMenuToolbarListener? = null
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        binding?.toolbar?.setNavigationOnClickListener { drawerMenuToolbarListener?.onDrawerMenuClicked() }
+    }
+
+    override fun onCreateView(
+        inflater: LayoutInflater, container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        // Inflate the layout for this fragment
+        binding = FragmentExerciseBinding.inflate(inflater, container, false)
+        return binding?.root
+    }
+
+    override fun onDestroy() {
+        binding = null
+        super.onDestroy()
+    }
+}

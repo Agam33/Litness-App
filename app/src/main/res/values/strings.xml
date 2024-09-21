@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Litness</string>
 
-<!-- Latihan ABS -->
+    <!-- Latihan ABS -->
     <string name="title_abs_exercise">Latihan Abs</string>
     <string name="title_plank">Plank</string>
     <string name="txt_abs_plank_step_1">Berdiri dengan kaki selebar pinggul. Jika Anda merasa lebih nyaman, Anda bisa menempatkan
@@ -303,7 +303,7 @@ otot dada</string>
 cedera</string>
     <string name="txt_butterfly_chest_step_6">Lakukan latihan Butterfly Chest sebanyak 12-15 kali tiap setnya dengan jumlah set maksimal
 enam.</string>
-    
+
     <string name="title_chest_press_machine">Chest Press Machine</string>
     <string name="txt__chest_press_machine_step_1">Duduk pada bangku chest press machine dengan punggung bertumpu pada sandaran dan kaki
 bertumpu pada pijakan chest press machine</string>
@@ -353,7 +353,7 @@ tekanan berlebih pada sendi lutut dan cedera
     <string name="txt_leg_extencions_step_6">Perlahan-lahan turunkan beban kembali ke kondisi awal sambil menarik nafas. Pastikan tidak
 melewati batas sudut siku-siku</string>
     <string name="txt_leg_extencions_step_7">Lakukan sebanyak 12-15 repetisi (3 set) dan atur beban sesuai dengan kemampuan</string>
-    
+
     <string name="title_leg_press">Leg Press</string>
     <string name="txt_leg_press_step_1">Pilih dan atur berat beban terlebih dahulu sesuai dengan kemampuan Anda</string>
     <string name="txt_leg_press_step_2">Duduk di mesin leg press dan letakkan kaki Anda pada platform di depan Anda dengan posisi
@@ -371,4 +371,12 @@ kembali ke posisi awal. Hembuskan nafas</string>
 mencegah platform tertiban</string>
     <string name="txt_leg_press_step_8">Lakukan sebanyak 12-15 repitisi (4 set)</string>
 
+
+    <string name="txt_empty_input">Tidak Boleh Kosong!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txt_logout">Logout</string>
+    <string name="txt_sample_height">%d cm</string>
+    <string name="txt_sample_weight">%d kg</string>
+    <string name="txt_sample_gender">Male</string>
 </resources>

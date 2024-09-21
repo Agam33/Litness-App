@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.App.CardFilled.Normal" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/md_theme_light_onPrimary</item>
+    </style>
+
+    <style name="Widget.App.CardElevated.Normal" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/md_theme_light_onPrimary</item>
+    </style>
+
+
+    <style name="TextAppearance.App.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/roboto_regular</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:letterSpacing">1</item>
+    </style>
+
+    <style name="ThemeOverlay.Litness.NavigationView" parent="Widget.Material3.NavigationView">
+        <item name="itemShapeFillColor">@color/navigation_item_background_selector</item>
+    </style>
+
+    <!--Toolbar Style-->
+
+    <!-- Toolbar for navigation Drawer -->
+
+    <style name="Widget.App.DrawerToolbar" parent="Widget.Material3.Toolbar">
+        <item name="titleTextColor">@color/black</item>
+        <item name="elevation">0dp</item>
+        <item name="titleCentered">true</item>
+        <item name="navigationIcon">@drawable/baseline_menu_24</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/md_theme_light_secondary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.ProfileFragment">
+
+   <com.google.android.material.appbar.MaterialToolbar
+       app:title="Profile"
+       style="@style/Widget.App.DrawerToolbar"
+       android:id="@+id/toolbar"
+       android:layout_width="match_parent"
+       android:layout_height="?attr/actionBarSize"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_basic_info"
+        android:layout_margin="16dp"
+        style="@style/Widget.App.CardElevated.Normal"
+        app:cardElevation="0dp"
+        android:layout_below="@id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/layout_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:text="Gender"
+                    android:textStyle="normal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_gender"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                    android:text="@string/txt_sample_gender"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_below="@id/layout_gender"
+                android:background="@color/md_theme_light_secondary"
+                android:id="@+id/sp1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_below="@id/sp1"
+                android:id="@+id/layout_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:text="Weight"
+                    android:textStyle="normal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:id="@+id/tv_weight"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                    android:text="@string/txt_sample_weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_below="@id/layout_weight"
+                android:background="@color/md_theme_light_secondary"
+                android:id="@+id/sp2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"/>
+
+            <LinearLayout
+                android:layout_below="@id/sp2"
+                android:id="@+id/layout_height"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:text="Height"
+                    android:textStyle="normal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"/>
+
+                <com.google.android.material.textview.MaterialTextView
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:drawableEnd="@drawable/baseline_keyboard_arrow_right_24"
+                    android:id="@+id/tv_height"
+                    android:text="@string/txt_sample_height"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:text="@string/txt_logout"
+        app:backgroundTint="@color/md_theme_light_error"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Small"
+        android:layout_below="@+id/card_basic_info"
+        android:layout_margin="16dp"
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
