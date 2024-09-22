@@ -11,10 +11,13 @@ import androidx.lifecycle.lifecycleScope
 import com.org.litness.R
 import com.org.litness.databinding.ActivityLoginBinding
 import com.org.litness.ui.login.viewmodel.LoginViewModel
+import com.org.litness.ui.main.MainNavigationActivity
 import com.org.litness.ui.regis.RegisActivity
 import com.org.litness.util.showShortToast
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
+@AndroidEntryPoint
 class LoginActivity : AppCompatActivity() {
 
     private val viewModel: LoginViewModel by viewModels()
@@ -48,6 +51,16 @@ class LoginActivity : AppCompatActivity() {
                 uiState.message?.let {
                     showShortToast(it)
                 }
+
+                uiState.isSuccess?.let {
+                    if(it) {
+                        startActivity(
+                            Intent(this@LoginActivity, MainNavigationActivity::class.java).apply {
+                                flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
+                            }
+                        )
+                    }
+                }
             }
         }
     }
@@ -66,6 +79,7 @@ class LoginActivity : AppCompatActivity() {
             return
         }
 
-        viewModel.login(email, password)
+//        viewModel.login(email, password)
+        viewModel.setSuccess(true)
     }
 }

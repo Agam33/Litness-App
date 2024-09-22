@@ -9,7 +9,7 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-//@HiltViewModel
+@HiltViewModel
 class RegisViewModel @Inject constructor(
     private val userRepository: UserRepository
 ): BaseViewModel<RegisUiState>(RegisUiState()) {

@@ -8,6 +8,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
 import com.org.litness.R
+import com.org.litness.ui.login.LoginActivity
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 
@@ -25,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         lifecycleScope.launch {
             delay(1000)
             startActivity(
-                Intent(this@MainActivity, MainNavigationActivity::class.java).apply {
+                Intent(this@MainActivity, LoginActivity::class.java).apply {
                     flags = Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK
                 }
             )

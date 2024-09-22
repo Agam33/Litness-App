@@ -11,8 +11,10 @@ import com.org.litness.R
 import com.org.litness.databinding.ActivityRegisBinding
 import com.org.litness.ui.regis.viewmodel.RegisViewModel
 import com.org.litness.util.showShortToast
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
+@AndroidEntryPoint
 class RegisActivity : AppCompatActivity() {
 
     private val viewModel: RegisViewModel by viewModels()
