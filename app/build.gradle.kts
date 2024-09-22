@@ -54,6 +54,13 @@ dependencies {
 
     val lifecycleVersion = "2.8.6"
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleVersion")
+    val activityKtxVersion = "1.9.2"
+    val fragmentKtxVersion = "1.8.3"
+    implementation("androidx.activity:activity-ktx:$activityKtxVersion")
+    implementation("androidx.fragment:fragment-ktx:$fragmentKtxVersion")
+
+    val glideVersion = "4.16.0"
+    implementation("com.github.bumptech.glide:glide:$glideVersion")
 
 
     // firebase BOM

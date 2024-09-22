@@ -11,7 +11,9 @@ import com.org.litness.databinding.ActivityMainNavigationBinding
 import com.org.litness.ui.exercise.ExerciseFragment
 import com.org.litness.ui.profile.ProfileFragment
 import com.org.litness.util.DrawerMenuToolbarListener
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainNavigationActivity : AppCompatActivity(), DrawerMenuToolbarListener {
 
     private val binding: ActivityMainNavigationBinding by lazy { ActivityMainNavigationBinding.inflate(layoutInflater) }

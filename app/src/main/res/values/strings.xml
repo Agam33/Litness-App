@@ -379,4 +379,24 @@ mencegah platform tertiban</string>
     <string name="txt_sample_height">%d cm</string>
     <string name="txt_sample_weight">%d kg</string>
     <string name="txt_sample_gender">Male</string>
+
+    <string name="text_dummy_text">
+        <![CDATA[
+                <ol>
+                    <li>Berbaring telentang pada permukaan lantai yang rata dengan beralaskan matras olahraga</li>
+                    <li>Tekuk lutut dengan posisi kedua telapak kaki menapak ke lantai, atau bisa juga ditekuk 90
+derajat</li><li>Tekuk lutut dengan posisi kedua telapak kaki menapak ke lantai, atau bisa juga ditekuk 90
+derajat</li><li>Tekuk lutut dengan posisi kedua telapak kaki menapak ke lantai, atau bisa juga ditekuk 90
+derajat</li><li>Tekuk lutut dengan posisi kedua telapak kaki menapak ke lantai, atau bisa juga ditekuk 90
+derajat</li><li>Tekuk lutut dengan posisi kedua telapak kaki menapak ke lantai, atau bisa juga ditekuk 90
+derajat</li><li>Tekuk lutut dengan posisi kedua telapak kaki menapak ke lantai, atau bisa juga ditekuk 90
+derajat</li><li>Tekuk lutut dengan posisi kedua telapak kaki menapak ke lantai, atau bisa juga ditekuk 90
+derajat</li>
+                    <li>Kencangkan perut dengan mengangkat tubuh bagian atas. Pastikan untuk mengaktifkan otot
+perut, terutama otot rektus abdominis</li>
+                    <li>Pastikan untuk melakukan pemanasan sebelum melakukan crunch, terutama jika Anda baru
+mulai olahraga. Jangan lupa untuk beristirahat jika merasa nyeri atau kram pada perut</li>
+                </ol>
+        ]]>
+    </string>
 </resources>
