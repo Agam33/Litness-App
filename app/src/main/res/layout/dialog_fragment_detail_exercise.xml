@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:fillViewport="false"
+        android:id="@+id/content_container"
+        android:layout_marginBottom="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/img_container"
+                app:cardElevation="0dp"
+                app:cardCornerRadius="10dp"
+                app:strokeWidth="0.8dp"
+                app:strokeColor="#CFCFCF"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:id="@+id/iv_exercise"
+                    android:contentDescription="@null"
+                    android:src="@drawable/abs_crunch"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_marginTop="16dp"
+                android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+                android:textStyle="bold"
+                android:layout_below="@id/img_container"
+                android:id="@+id/tv_exercise_title"
+                android:text="Crunch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_marginTop="16dp"
+                android:paddingBottom="64dp"
+                android:elevation="8dp"
+                android:layout_below="@id/tv_exercise_title"
+                android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+                android:text="@string/text_dummy_text"
+                android:id="@+id/tv_steps"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_done"
+        android:text="Done"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/md_theme_light_primary"
+        android:textAllCaps="true"
+        android:layout_marginBottom="8dp"
+        android:layout_gravity="bottom"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</FrameLayout>
