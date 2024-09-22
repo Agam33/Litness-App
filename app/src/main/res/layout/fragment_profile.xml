@@ -123,10 +123,20 @@
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.button.MaterialButton
+        android:text="Update Info"
+        app:backgroundTint="@color/md_theme_light_primary"
+        app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Small"
+        android:layout_below="@+id/card_basic_info"
+        android:layout_margin="16dp"
+        android:id="@+id/btn_update_user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.button.MaterialButton
         android:text="@string/txt_logout"
         app:backgroundTint="@color/md_theme_light_error"
         app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Small"
-        android:layout_below="@+id/card_basic_info"
+        android:layout_below="@+id/btn_update_user"
         android:layout_margin="16dp"
         android:id="@+id/btn_logout"
         android:layout_width="match_parent"

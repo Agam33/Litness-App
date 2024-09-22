@@ -376,9 +376,13 @@ mencegah platform tertiban</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="txt_logout">Logout</string>
-    <string name="txt_sample_height">%d cm</string>
-    <string name="txt_sample_weight">%d kg</string>
-    <string name="txt_sample_gender">Male</string>
+    <string name="txt_height">%.1f cm</string>
+    <string name="txt_weight">%.1f kg</string>
+
+    <string name="txt_sample_height">0.0 cm</string>
+    <string name="txt_sample_weight">0.0 kg</string>
+
+    <string name="txt_sample_gender">Pria</string>
 
     <string name="text_dummy_text">
         <![CDATA[

@@ -5,11 +5,12 @@ import com.org.litness.base.BaseViewModel
 import com.org.litness.base.MResult
 import com.org.litness.data.repository.UserRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
-//@HiltViewModel
+@HiltViewModel
 class LoginViewModel @Inject constructor(
     private val userRepository: UserRepository
 ): BaseViewModel<LoginUiState>(LoginUiState()) {
@@ -33,6 +34,20 @@ class LoginViewModel @Inject constructor(
                 _uiState.update {
                     it.copy(message = null)
                 }
+            }
+        }
+    }
+
+    fun setSuccess(state: Boolean) {
+        viewModelScope.launch {
+            _uiState.update {
+                it.copy(isSuccess = state)
+            }
+
+            delay(500)
+
+            _uiState.update {
+                it.copy(isSuccess = null)
             }
         }
     }
