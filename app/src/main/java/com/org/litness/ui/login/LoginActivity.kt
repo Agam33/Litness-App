@@ -80,7 +80,6 @@ class LoginActivity : AppCompatActivity() {
             return
         }
 
-//        viewModel.login(email, password)
-        viewModel.setSuccess(true)
+        viewModel.login(email, password)
     }
 }

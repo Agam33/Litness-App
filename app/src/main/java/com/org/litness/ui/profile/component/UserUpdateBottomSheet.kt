@@ -21,17 +21,28 @@ class UserUpdateBottomSheet: BottomSheetDialogFragment() {
     private var _binding: DialogFragmentUserUpdateBinding? = null
     private val binding get() = _binding
 
+    interface OnRefreshListener {
+        fun onRefresh()
+    }
+
+    var onRefreshListener: OnRefreshListener? = null
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
         with(binding!!) {
             btnCancel.setOnClickListener {
+                onRefreshListener?.onRefresh()
+                dismiss()
+            }
+            btnUpdate.setOnClickListener {
+                updateUser()
+                onRefreshListener?.onRefresh()
                 dismiss()
             }
         }
 
         observer()
-        updateUser()
     }
 
     private fun observer() {
@@ -65,7 +76,7 @@ class UserUpdateBottomSheet: BottomSheetDialogFragment() {
         inputHeight.setText(user.height.toString())
         inputWeight.setText(user.weight.toString())
 
-        if(user.gender.equals("Pria")) {
+        if(user.gender == "Pria") {
             radioMale.isChecked = true
         } else {
             radioFemale.isChecked = true
