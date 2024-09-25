@@ -20,13 +20,13 @@ class ProfileViewModel @Inject constructor(
         getUserInfo()
     }
 
-    private fun getUserInfo() {
+    fun getUserInfo() {
         viewModelScope.launch {
             userRepository.getUserInfo().collect { res ->
               when(res) {
                   is MResult.Success -> {
                       _uiState.update {
-                          it.copy(user = res.data)
+                          it.copy(user = res.data?.copy())
                       }
                   }
                   else -> Unit
@@ -39,5 +39,9 @@ class ProfileViewModel @Inject constructor(
         viewModelScope.launch {
             userRepository.updateUser(user)
         }
+    }
+
+    fun logout() {
+        userRepository.logout()
     }
 }

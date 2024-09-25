@@ -15,16 +15,12 @@ class ExercisesViewModel @Inject constructor(
     private val exerciseRepository: ExerciseRepository
 ): BaseViewModel<ExerciseUiState>(ExerciseUiState()) {
 
-    init {
-        getExercises()
-    }
-
     fun getExercises(
-        filters: List<Int> = emptyList()
+        filters: List<Long>
     ) {
         viewModelScope.launch {
             exerciseRepository.getAllExercise(
-                filters = uiState.value.filters.toList()
+                filters = filters
             ).collect { res ->
                 when(res) {
                     is MResult.Success -> {
@@ -40,7 +36,7 @@ class ExercisesViewModel @Inject constructor(
         }
     }
 
-    fun setFilter(id: Int) {
+    fun setFilter(id: String) {
         val newFilter = uiState.value.filters
         newFilter.add(id)
         _uiState.update {
@@ -50,7 +46,7 @@ class ExercisesViewModel @Inject constructor(
         }
     }
 
-    fun deleteFilter(id: Int) {
+    fun deleteFilter(id: String) {
         val newFilter = uiState.value.filters
         newFilter.remove(id)
         _uiState.update {

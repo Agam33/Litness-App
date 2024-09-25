@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.View.TEXT_ALIGNMENT_CENTER
 import android.view.ViewGroup
+import androidx.lifecycle.lifecycleScope
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.google.android.material.chip.Chip
 import com.org.litness.R
@@ -12,6 +13,7 @@ import com.org.litness.base.MResult
 import com.org.litness.data.repository.ExerciseRepository
 import com.org.litness.databinding.DialogFragmentFilterExerciseBinding
 import dagger.hilt.android.AndroidEntryPoint
+import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @AndroidEntryPoint
@@ -23,39 +25,44 @@ class FilterBottomSheet: BottomSheetDialogFragment() {
     private val binding get() = _binding
 
     interface OnSelectedChipsListener {
-        fun onSelectedChips(list: List<Int>)
+        fun onSelectedChips(list: List<Long>)
     }
 
     var onSelectedChipsListener: OnSelectedChipsListener? = null
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
-        when(val data = repository.getFocusAreas()) {
-            is MResult.Success -> {
-               for(focusArea in data.data ?: emptyList()) {
-                   val chip = Chip(requireContext())
-                   chip.text = focusArea.name
-                   chip.isCheckable = true
-                   chip.isChecked = false
-                   chip.tag = focusArea.id
-                   chip.textAlignment = TEXT_ALIGNMENT_CENTER
-                   chip.chipStrokeWidth = 0f
-                   chip.chipBackgroundColor = requireContext().getColorStateList(R.color.chip_bg)
-                   binding?.chipGroup?.addView(chip)
-               }
+        lifecycleScope.launch {
+            repository.getFocusAreas().collect { res ->
+                when(res) {
+                    is MResult.Success -> {
+                        for(focusArea in res.data ?: emptyList()) {
+                            val chip = Chip(requireContext())
+                            chip.text = focusArea.name
+                            chip.isCheckable = true
+                            chip.isChecked = false
+                            chip.tag = focusArea.id
+                            chip.textAlignment = TEXT_ALIGNMENT_CENTER
+                            chip.chipStrokeWidth = 0f
+                            chip.chipBackgroundColor = requireContext().getColorStateList(R.color.chip_bg)
+                            binding?.chipGroup?.addView(chip)
+                        }
+                    }
+                    else -> Unit
+                }
             }
-            else -> Unit
         }
+
 
         with(binding!!) {
             btnDone.setOnClickListener {
                 val chips = chipGroup.checkedChipIds.mapNotNull { chipId ->
                     val chip = root.findViewById<Chip>(chipId)
-                    val id = chip.tag as Int
+                    val id = chip.tag as Long
                     id
                 }
                 onSelectedChipsListener?.onSelectedChips(chips)
+                dismiss()
             }
 
             btnClear.setOnClickListener {

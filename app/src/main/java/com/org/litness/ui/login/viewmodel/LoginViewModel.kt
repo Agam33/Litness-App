@@ -23,28 +23,33 @@ class LoginViewModel @Inject constructor(
                         _uiState.update {
                             it.copy(message = res.data)
                         }
+                        setSuccess(true)
+                        delay(10)
+                        _uiState.update {
+                            it.copy(message = null)
+                        }
                     }
                     is MResult.Error -> {
                         _uiState.update {
                             it.copy(message = res.msg)
                         }
+                        delay(500)
+                        _uiState.update {
+                            it.copy(message = null)
+                        }
                     }
-                }
-
-                _uiState.update {
-                    it.copy(message = null)
                 }
             }
         }
     }
 
-    fun setSuccess(state: Boolean) {
+    private fun setSuccess(state: Boolean) {
         viewModelScope.launch {
             _uiState.update {
                 it.copy(isSuccess = state)
             }
 
-            delay(500)
+            delay(1)
 
             _uiState.update {
                 it.copy(isSuccess = null)

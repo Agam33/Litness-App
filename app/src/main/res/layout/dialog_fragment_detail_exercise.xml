@@ -30,7 +30,7 @@
                 <ImageView
                     android:id="@+id/iv_exercise"
                     android:contentDescription="@null"
-                    android:src="@drawable/abs_crunch"
+
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"/>
 
@@ -42,7 +42,7 @@
                 android:textStyle="bold"
                 android:layout_below="@id/img_container"
                 android:id="@+id/tv_exercise_title"
-                android:text="Crunch"
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
 
@@ -64,14 +64,12 @@
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_done"
         android:text="Done"
+        android:layout_gravity="bottom"
         android:textColor="@color/white"
         app:backgroundTint="@color/md_theme_light_primary"
         android:textAllCaps="true"
-        android:layout_marginBottom="8dp"
-        android:layout_gravity="bottom"
         style="@style/Widget.Material3.Button.ElevatedButton"
         app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Small"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
-
 </FrameLayout>

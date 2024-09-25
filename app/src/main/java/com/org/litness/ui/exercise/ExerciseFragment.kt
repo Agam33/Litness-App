@@ -19,8 +19,6 @@ import com.org.litness.ui.exercise.model.Exercise
 import com.org.litness.ui.exercise.viewmodel.ExercisesViewModel
 import com.org.litness.util.DrawerMenuToolbarListener
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.Dispatchers.IO
-import kotlinx.coroutines.Dispatchers.Main
 import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
@@ -66,6 +64,8 @@ class ExerciseFragment : Fragment(),
     }
 
     private fun observer() {
+        viewModel.getExercises(emptyList())
+
         lifecycleScope.launch {
             viewModel.uiState.collect {
                 // filters
@@ -91,7 +91,7 @@ class ExerciseFragment : Fragment(),
     override fun onItemClicked(exercise: Exercise) {
         // to detail
         val bundle = Bundle()
-        bundle.putInt(EXTRA_ID, exercise.id) // should change with exercise Id
+        bundle.putParcelable(EXTRA_ID, exercise)
         val btmSheet =  DetailExerciseBottomSheet().apply {
             arguments = bundle
         }
@@ -102,11 +102,8 @@ class ExerciseFragment : Fragment(),
         const val EXTRA_ID = "extra-id"
     }
 
-    override fun onSelectedChips(list: List<Int>) {
+    override fun onSelectedChips(list: List<Long>) {
         // handle filter
-        Log.d("TAG", "onSelectedChips: ${list}")
-        viewModel.getExercises(
-            filters = list
-        )
+        viewModel.getExercises(filters = list)
     }
 }

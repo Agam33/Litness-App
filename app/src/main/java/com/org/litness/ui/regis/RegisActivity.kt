@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.lifecycleScope
-import com.org.litness.R
 import com.org.litness.databinding.ActivityRegisBinding
 import com.org.litness.ui.regis.viewmodel.RegisViewModel
 import com.org.litness.util.showShortToast
@@ -47,6 +46,12 @@ class RegisActivity : AppCompatActivity() {
             viewModel.uiState.collect { uiState ->
                 uiState.message?.let {
                     showShortToast(it)
+                }
+
+                uiState.isSuccess?.let {
+                    if(it) {
+                        finish()
+                    }
                 }
             }
         }
