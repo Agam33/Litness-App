@@ -73,3 +73,6 @@ g
 7app/src/main/java/com/org/litness/util/FirebaseInput.kt,6\a\6aaa0cb5917798c4aae73a8b1183d193e7ba9620
 m
 =app/src/main/java/com/org/litness/data/source/model/UserFB.kt,1\b\1b01510fde16133d615562c2d7e8134c77ed12d6
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
